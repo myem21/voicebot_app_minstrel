@@ -1,1 +1,10 @@
-"# voicebot_app_minstrel" 
+"# voicebot_app_minstrel"
+=> 그대로 20th_game repository로 사용
+🎯 새 구조 요약
+항목	설명
+플레이어	2명 (Player 1, Player 2)
+역할	두 플레이어가 단어를 직접 선택 (난이도별)
+모델 역할	EEVE가 각 플레이어에게 질문을 던져 단어를 맞춤
+진행 방식	두 플레이어의 턴이 동시에 진행되는 동시 경쟁 모드
+라운드 구조	3판 2선승제
+기록	각 라운드별 결과, 최종 승자, 누적 승률을 CSV로 저장
